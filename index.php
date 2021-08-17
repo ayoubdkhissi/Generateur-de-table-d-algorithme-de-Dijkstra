@@ -21,7 +21,7 @@
 	?>
 
 	<header>
-		<h1 class="logo">Generateur de serie de fourier</h1>
+		<h1 class="logo">Générateur de table d'algorithme de Dijkstra </h1>
 		<ul>
 			<li><a href="./index.php">home</a></li>
 			<li><a href="">report bug</a></li>
@@ -31,13 +31,13 @@
 	<div>
 		<form method="get">
 			<div>
-				<label>Number of nodes :</label>
+				<label>Nombres de nœuds :</label>
 				<input type="number" name="NbrNodes" min = "1" width="3" value= "<?php echo $NbrNodes ?>" ?>
 				<button name="Resize">Resize</button>
 			</div>
 
 			<div>
-				<h5>Enter the adjacency Matrix:</h5>
+				<h5>Entrer la matrice d'adjacence: </h5>
 
 				<table>
 				<?php
@@ -68,7 +68,7 @@
 	</main>
 
 	<footer>
-		<p>Created by ayoub</p>
+		<p>Created by DKHISSI AYOUB</p>
 	</footer>
 
 </body>
