@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #122b52;
+	font-family: 'Source Code Pro', 'monospace';
+	color: #ffffffdd !important;
+} 
+
+header {
+	width: 100%;
+	height: 10vh;
+	padding: 20px 0;
+	background-image: linear-gradient(180deg, #071730, #122b52);
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+.logo {
+	font-family: 'Source Code Pro', 'monospace';
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+
+header li a {
+	text-decoration: none;
+	color: #ffffffdd;
+	padding: 100px 15px;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	transition: all .3s ease-in;
+}
+
+header li a:hover {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+main {
+	height: auto !important;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 50px auto;
+	align-items: center;
+}
+
+form div {
+	margin: 15px 0;
+}
+
+form div input {
+	width: 50px;
+	text-align: center;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	background-color: #ffffffef;
+	padding: 3px 0;
+}
+
+form button {
+	padding: 3px 8px;
+	border: solid .5px #000000aa;
+	outline: none;
+	border-radius: 4px;
+	transition: all .2s ease-in;
+}
+
+form button:hover {
+	background-color: #000000aa;
+	color: #ffffff;
+}
+
+form div h5 {
+
+}
+
+table {
+	border-spacing: 6px 5px;
+}
+
+.generated {
+	display: flex;
+	flex-direction: column;
+	margin: 50px auto;
+	align-items: center;
+}
+
+.generated table {
+	border-spacing: 10px 15px;
+	text-align: center;
+	border: solid 1px #fff;
+}
+
+footer {
+	display: flex;
+	height: 5vh;
+	padding: 0 25px;
+	align-content: center;
+	font-size: .8rem;
+}
