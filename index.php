@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Générateur de table d'algorithme de Dijkstra</title>
 	<link rel="icon" href="icon.png" type="image/ico">
-	<link rel="stylesheet" type="text/css" href="style.css?version=10">
+	<link rel="stylesheet" type="text/css" href="style.css?version=11">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">

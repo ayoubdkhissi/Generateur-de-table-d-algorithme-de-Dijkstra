@@ -114,7 +114,7 @@ function dijkstra($NbrNodes, $graph, $source)
 			if($i == -1 && $j == -1)
 				echo "<td>Etape</td>";
 			else if( $i == -1 &&  $j == 0)
-				echo "<td>Visited[]</td>";
+				echo "<td>E[]</td>";
 			else if ($i == -1)
 				echo "<td>D[$j]</td>";
 			else if ($j == -1)
@@ -142,6 +142,11 @@ function dijkstra($NbrNodes, $graph, $source)
 		draw_iteration($i, $NbrNodes, $distance);
 	}
 	echo "</table>";
+
+	echo "<br>";
+	echo "<label> <b>E : L'ensemble des nœuds visités</b> </label>";
+	echo "<label> <b>D[i] : la valeur du chemin le plus court du nœud source au nœud i</b> </label>";
+
 }
 
 function ALL_ZERO($NbrNodes, $graph)
