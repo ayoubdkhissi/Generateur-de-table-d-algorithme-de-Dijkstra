@@ -47,11 +47,11 @@
 			</div>
 
 			<div>
-				<label>Source Node :</label>
+				<label>Nœud source :</label>
 				<input type="number" name="source" value="<?php echo $source ?>" min="1" max="<?php echo $NbrNodes ?>">
 			</div>
 
-			<button name="generer" type="submit">Generate</button>
+			<button name="generer" type="submit">Générer</button>
 		</form>
 
 	</div>
