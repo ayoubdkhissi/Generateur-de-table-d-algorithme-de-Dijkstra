@@ -2,8 +2,13 @@
 Une application Web qui prend la matrice d'adjacence d'un graph et produit la table de Dijkstra qui montre le chemin le plus court d'un nœud source à tous les autres nœuds, en montrant toutes les itérations
 
 ## Test du site localement
-télécharger le répertoire et le mettre dans le dossier "C:\xampp\htdocs" si vous utiliser Xammp
+• télécharger le répertoire et le mettre dans le dossier "C:\xampp\htdocs" si vous utiliser Xammp
 
+• Démarrer les services Apache et MySQL dans Xampp
+![startapache](https://user-images.githubusercontent.com/73041562/130333494-b4943701-17ce-4cec-a7d7-5697d5844e68.PNG)
+
+
+• Dans n'import quelle Browser aller sur "localhost/Generateur-de-table-d-algorithme-de-Dijkstra"
 
 ## Comment ça marche?
 • Déterminer le nombre de nœuds du graph puis cliquer sur "Resize"
