@@ -68,7 +68,7 @@
 	</main>
 
 	<footer>
-		<p>Created by DKHISSI AYOUB</p>
+		<p>Created by DKHISSI AYOUB. <a href="https://github.com/ayoubdkhissi/Generateur-de-table-d-algorithme-de-Dijkstra"style="color: #fff">View project on github</a></p>
 	</footer>
 
 </body>
