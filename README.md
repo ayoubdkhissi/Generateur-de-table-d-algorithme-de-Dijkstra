@@ -1,7 +1,7 @@
 # Generateur-de-table-d-algorithme-de-Dijkstra
 Une application Web qui prend la matrice d'adjacence d'un graph et produit la table de Dijkstra qui montre le chemin le plus court d'un nœud source à tous les autres nœuds, en montrant toutes les itérations
 
-view tool in heroku: https://dijkstra-gen.herokuapp.com
+Tool is deployed in azure here: https://dijkstratablegen.azurewebsites.net/
 
 ## Comment ça marche?
 • Déterminer le nombre de nœuds du graph puis cliquer sur "Resize"
